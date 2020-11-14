@@ -1,0 +1,62 @@
+COMANDOS GIT
+
+git version //mostra versão do git
+
+git config --global user.name "Nome do usuário"
+
+git config --global user.email "email@cliente.com"
+
+clear //limpa comandos
+
+git config --global user.name
+
+git config --global user.email
+
+git config core.editor //mostra o editor
+
+git config --global core.editor "Caminho da pasta do executavel" //Setar editor
+
+pwd //mostra pasta que se encontra
+
+cd /c //defina uma pasta base
+
+ls //mostra os arquivos da pasta
+
+mkdir teste //cria uma pasta no diretório
+
+touch exemplo.txt //cria um arquivo no diretório
+
+touch teste/exemplo2 //cria um arquivo dentro da pasta identificada
+
+git init //cria um grafo de commits
+
+ls -a //mostra arquivos ocultos do diretório
+
+git status //mostra o que esta armazenado nas pastas locais o que foi modificado, adicionado, ou enviado
+
+git add * //Adiciona arquivos no git
+
+git commit -m "Criar" //envia alterações para o grafo de commits, e um comentário de atualização
+
+git log //mostra o histórico de commits
+
+git log --oneline //mostra os commits em uma linha
+
+git remote //Ve se tem uma conexão com git estabelecida
+
+git remote add origin https://github.com/BuzzTecnologia/Buzz_Tecnologia.git //adciciona conexao com o git hub
+
+git push -u origin master "main"//define o envio para tal repositório //provavelmente peça login e senha
+
+git remote -v //mostra a conexao
+
+
+
+
+
+
+
+
+
+
+
