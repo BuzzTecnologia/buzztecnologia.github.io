@@ -21,19 +21,23 @@
 	.titulo
 	{
 		font-size: 2.5vw;
-		font-weight: bold;
 	}
 	
 	body
 	{
-		font-family: Verdana;
-		font-size: 1.5vw;
+		font-family: arial;
+		font-size: 1.3vw;
 		background-color: rgb(220,220,220);
 		margin-left: 0px;
 		margin-right: 0px;
 		margin-bottom: 0px;
 	}
 	
+	.titulo1
+	{
+		font-size: 2vw;
+	}
+
 	a
 	{
 		text-decoration: none;
@@ -74,11 +78,6 @@
 		-moz-transition-duration: 0.5s; 
 		-moz-transition-timing-function: ease;
 		-moz-transition-property: all;
-	}
-	
-	.titulo1
-	{
-		font-size: 3vw;
 	}
 	
 	#teste
