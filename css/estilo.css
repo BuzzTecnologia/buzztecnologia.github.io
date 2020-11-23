@@ -1,0 +1,111 @@
+
+	header table img
+	{
+		width: 35%;
+	}
+
+	header
+	{
+		background-color: rgb(37,93,142); 
+		top:0%;
+		left:0%;
+		text-align:center;
+		position:fixed;
+	}
+	
+	.coluna1
+	{
+		width: 25%;
+	}
+	
+	.titulo
+	{
+		font-size: 2.5vw;
+		font-weight: bold;
+	}
+	
+	body
+	{
+		font-family: Verdana;
+		font-size: 1.5vw;
+		background-color: rgb(220,220,220);
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+	}
+	
+	a
+	{
+		text-decoration: none;
+	}
+	
+	header nav a:link
+	{
+		color:rgb(0,0,0);
+	}
+	
+	header nav a:visited
+	{
+		color:rgb(20,20,20);
+	}
+	
+	header nav a:hover
+	{
+		color:rgb(0,0,0);
+		border-radius:5px;
+		background-color: rgb(200,200,200);
+		box-shadow:0px 0px 20px 3px rgb(50,50,50);
+		transition-delay: 0.1s; 
+		transition-duration: 0.5s; 
+		transition-timing-function: cubic-biezer (0,0,0,0);
+		transition-property: all;
+
+		-webkit-transition-delay: 0.1s; 
+		-webkit-transition-duration: 0.5s; 
+		-webkit-transition-timing-function: ease;
+		-webkit-transition-property: all;
+
+		-o-transition-delay: 0.1s; 
+		-o-transition-duration: 0.5s; 
+		-o-transition-timing-function: ease;
+		-o-transition-property: all;
+
+		-moz-transition-delay: 0.1s; 
+		-moz-transition-duration: 0.5s; 
+		-moz-transition-timing-function: ease;
+		-moz-transition-property: all;
+	}
+	
+	.titulo1
+	{
+		font-size: 3vw;
+	}
+	
+	#teste
+	{
+		background-color: rgb(153,217,234);
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	
+	#imagens
+	{
+		background-color: rgb(153,217,234);
+		margin-right: 10%;
+		margin-left: 10%;
+	}
+	
+	div img
+	{
+		width: 100%;
+		height: 100%;
+		
+	}
+	
+	footer
+	{
+		background-color:rgb(37,93,142);
+		text-align:center;
+		padding:10px;
+	}
+	
