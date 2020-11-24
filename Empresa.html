@@ -4,41 +4,50 @@
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="author" content="Vitória Felix e Fabiana Contijo"/>
+		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 		<title>Buzz Tecnologia</title>
 		<link rel="stylesheet" href="css/estilo.css"/>
 		<style type="text/css">
 		
 			.empresa tr
 			{
-				width:800px;
-				border:15px groove rgb(220,220,220);
+				width:30%;
 				background-color:rgb(70,162,199);
-				height:100px;
+				height:40%;
 			}
 			
 			.empresa
 			{
 				margin-left:auto;
 				margin-right:auto;
-				width:800px;
+				width:50%;
 				margin-top:80px;
 				margin-bottom:80px;
+			
 			}
 			
-			.empresa td
+			.alinhamento-empresa
 			{
-				font-family: Verdana;
-				font-size: 1.5vw;
-				padding:30px;
-				
+				padding:10%;
+				width:50%;
+				height:80%
 			}
 			
-			.missao-visao
-			{
-				padding-top:10px;
+			@media(max-width:540px) {
+				.alinhamento-empresa {
+					padding: 5%;
+					font-size: 14px;
+				}
+
 			}
 			
-			
+			@media(max-width:321px) {
+				.alinhamento-empresa {
+					padding: 2%;
+					font-size: 12px;
+				}
+
+			}
 		
 		</style>
 	</head>
@@ -46,23 +55,19 @@
 	<body>
 	
 		<header>
-			<table>
-				<tr>
-					<td class="coluna1"> <img src="logo_buzz.png"/> </td>
-					<td class="titulo"> Buzz Tecnologia </td>
-				</tr>
-			</table>
-			
+			<div class="logo-buzz">
+				<img src="logo_buzz.png"/>
+			</div>
+				<h4 class="titulo-home"> Buzz Tecnologia </h4>
+			<center>
 			<nav>
-			
 				<a href="index.html">Pagina Inicial</a>&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="empresa.html">Sobre a empresa</a>&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="portifolio.html">Portifólio</a>&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="suporte.html">Suporte</a>&nbsp;&nbsp;&nbsp;&nbsp;
 				<a href="fale_conosco.html">Fale conosco</a>&nbsp;&nbsp;&nbsp;&nbsp;
-			
 			</nav>
-		
+			</center>
 		</header>
 		
 		<br/><br/><br/><br/><br/><br/>
@@ -72,56 +77,63 @@
 		
 			<tr>
 			
-				<td colspan="2">
-					<center><h4>História</h4><br/><br/></center>
-					A startup Buzz Tecnologia foi uma sociedade fundada durante o 2°
+				<td class="alinhamento-empresa"colspan="2">
+					<h4 class="titulo-pagina">História</h4>
+					<p>
+						A startup Buzz Tecnologia foi uma sociedade fundada durante o 2°
 						semestre de 2020 por 7 estudantes de programação (um grupo que se conheceu e
 						se uniram no decorrer de uma formação na Escola Técnica Basilides de Godoy), ano
 						que foi enxergando uma oportunidade de se inserir no mercado de trabalho através
 						da pandemia. Com o intuito de desenvolver sistemas para pequenos e grandes
 						projetos a startup visa valorizar sempre seus 4 pilares: organização, conforto,
 						comunicação e valorização tanto do consumidor final como a equipe em um todo.
+					</p>
 				</td>
 			
 			</tr>
 			
-			<tr class="missao-visao">
-				<td><br/></br>
-					<center><h4>Missão</h4></center>
+			<tr>
+				<td class="alinhamento-empresa">
+					<h4 class="titulo-pagina">Missão</h4>
+					<p>
 						Desenvolver programas com a automatização de processos que
-					satisfaçam as necessidades de nossos clientes, garantindo maior produtividade e
-					bem estar dos Funcionários.
+						satisfaçam as necessidades de nossos clientes, garantindo maior produtividade e
+						bem estar dos Funcionários.
+					</p>
 				</td>
 				
-				<td>
-					<center><h4>Visão</h4></center>
-							Ser a maior empresa de referência em desenvolvimento de sistemas do
+				<td class="alinhamento-empresa">
+					<h4 class="titulo-pagina">Visão</h4>
+					<p>
+						Ser a maior empresa de referência em desenvolvimento de sistemas do
 						mundo, levando qualidade, modernidade, facilidade e satisfação para nossos
 						clientes.
+					</p>
 				
 				</td>
 			
 			</tr>
 			
 			<tr>
-				<td colspan="2">
-					<center><h4>Valores</h4></center>
+				<td class="alinhamento-empresa" colspan="2">
+					<h4 class="titulo-pagina">Valores</h4>
+					<p>
 						Satisfação, Valorização e Respeito pelo cliente: Nosso crescimento é resultado
-					da aprovação de nossos clientes. Buscamos sempre reconhecer as necessidades
-					de nossos clientes para assim desenvolver um ótimo trabalho.
-					Ótima comunicação entre os funcionários: Através da troca mútua de
-					informações e experiências entre os funcionários, levamos a mais alta tecnologia
-					para o nosso cliente tornando o mesmo em uma empresa diferencial no mercado.
-					Reconhecimento e premiação aos funcionários: Buscamos sempre estimular o
-
-					desenvolvimento pessoal de nossos funcionários para que assim desenvolvam o seu
-					trabalho com o máximo de excelência e satisfação.
-				
+						da aprovação de nossos clientes. Buscamos sempre reconhecer as necessidades
+						de nossos clientes para assim desenvolver um ótimo trabalho.
+						Ótima comunicação entre os funcionários: Através da troca mútua de
+						informações e experiências entre os funcionários, levamos a mais alta tecnologia
+						para o nosso cliente tornando o mesmo em uma empresa diferencial no mercado.
+						Reconhecimento e premiação aos funcionários: Buscamos sempre estimular o
+						desenvolvimento pessoal de nossos funcionários para que assim desenvolvam o seu
+						trabalho com o máximo de excelência e satisfação.
+					</p>
 				</td>
 			
 			</tr>
 		
 		</table>
+		
 		<footer>
 			Buzz Tecnologia &copy; 2020
 		</footer>
