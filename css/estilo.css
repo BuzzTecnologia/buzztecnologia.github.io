@@ -1,15 +1,17 @@
 	header
 	{
-		background-color: rgb(37,93,142); 
-		padding-left:8%;
-		padding-right:10px;
+		background-color: rgb(37,93,142);
+		padding:10px;
 		position:fixed;
+		width:40%;
+		height:15%;
 	}
 	
 	.logo-buzz
 	{
-		width:10%;
-		height:10%;
+		width:8%;
+		height:7%;
+		padding:5px;
 	}
 	
 	
@@ -38,10 +40,12 @@
 	{
 		font-family:arial;
 		font-size:2.3vw;
-		margin-left:20%;
+		margin:10px;
+		/* margin-bottom:10%; */
 		width:20%;
 		height:30%;
-		padding-left:30px;
+		/*padding-left:30px; */
+		padding:5px;
 
 	}
 	
@@ -54,6 +58,7 @@
 		margin-left: 0px;
 		margin-right: 0px;
 		margin-bottom: 0px;
+		margin-top:0px;
 	}
 	
 	.titulo1
@@ -106,8 +111,11 @@
 	#teste
 	{
 		background-color: rgb(153,217,234);
-		margin-right: 10%;
-		margin-left: 10%;
+		margin-right: 5%;
+		margin-left: 5%;
+		margin-top:5%;
+		padding:5px;
+		width:25%;
 	}
 	
 	#imagens
