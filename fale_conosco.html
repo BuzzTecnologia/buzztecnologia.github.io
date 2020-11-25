@@ -4,111 +4,15 @@
 		<meta charset="utf-8"/>
 		<meta name="author" content="Vitória Felix e Fabiana Gontijo"/>
 		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
-		<link rel="stylesheet" href="css/estilo.css"/>
+		<link rel="stylesheet" href="css/estilo_faleconosco.css"/>
 		<title>Buzz Tecnologia</title>
-		<style type="text/css">
-			
-			label
-			{
-				text-align:center;
-			}
-			
-			input.nome, input.cel, input.email
-			{
-				border-radius:5px;
-			}
-			
-			tr
-			{
-				font-size:20px;
-			}
-			
-			table td
-			{
-				padding-top:12px;
-			}
-			
-			form
-			{
-				background-color:rgb(70,162,199);
-				width:50%;
-				heigth:50%;
-				min-width:200px;
-				margin-left:auto;
-				margin-right:auto;
-				margin-top:250px;
-				padding-left:20px;
-				padding-bottom:10px;
-				margin-bottom:40px;
-			}
-			
-			form table
-			{
-				margin-left:auto;
-				margin-right:auto;
-			}
-			
-			
-			
-			.mensagem
-			{
-				resize:none;
-				width:300px;
-				height:200px;
-				font-size:1.0vw;	
-			}
-			
-			.alinha_botoes
-			{
-				text-align:center;
-			}
-			
-			.alinha_botoes input
-			{
-				border-radius:5px;
-			}
-			
-			.redes-sociais
-			{
-				width:60px;
-				heigth:60px;
-				
-			}
-			
-			#alinhamento-redes
-			{
-				margin-left:auto;
-				margin-right:auto;
-				width:300px;
-				margin bottom:200px;
-			}
-			
-			iframe
-			{
-				width:600px;
-				height:300px;
-				margin-top:30px;
-				box-shadow:0px 0px 10px 10px rgb(50,50,50);
-			}
-			
-			.alinhamento-iframe
-			{
-				margin-left:auto;
-				margin-right:auto;
-				width:600px;
-				margin-bottom:200px;
-			}
-			
-		</style>
 	</head>
 	<body>
-	
 		<header>
-			<img class="logo-buzz" src="logo_buzz.png"/>
-			<center style="width: 90%;float:right;padding-top:20px">
-				<span class="titulo-home"> Buzz Tecnologia </span>
+			<img align="left" class="logo-buzz" src="logo_buzz.png"/>
+			<center class="titulo-home">
+				Buzz Tecnologia 
 			</center>
-			
 			<center>
 				<nav>
 					<a href="index.html">Pagina Inicial</a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -124,7 +28,6 @@
 		
 		<form>
 			<table>
-				<br/>
 				<h4 class="titulo-pagina">Envie-nos uma mensagem</h4><br/>
 				<tr>
 					<td>
@@ -134,9 +37,7 @@
 					<td>
 						<input class="nome" type "text" name="txtnome" id="txtnome" maxlength="50" placeholder="Digite seu nome completo" autofocus />
 					</td>
-				
 				</tr>
-				
 				<tr>
 					<td>
 						<label for="email">E-mail: </label>
@@ -146,7 +47,6 @@
 						<input class="email" type="email" name="txtemail" maxlength="30" placeholder="email.exemplo@hotmail.com" required />
 					</td>
 				</tr>
-				
 				<tr>
 					<td>
 						<label for="txtcelular">Celular: </label>
@@ -156,31 +56,26 @@
 						<input class="cel" type="text" name="cel" maxlength="13" placeholder="11987654321">
 					</td>	
 				</tr>
-				
 				<tr>
 					<td colspan="2">
 						<label for="txtmensagem">Escreva aqui sua mensagem:</label>
 					</td>
 				</tr>
-				
 				<tr>
 					<td colspan="2">
 						<textarea class="mensagem" for="txtmensagem" name="txtmensagem" cols="200" rows="4"></textarea>
 					</td>
 				</tr>
-				
 				<tr>
 					<td colspan="2" class="alinha_botoes">
 						<input type="submit" value="Enviar" onClick="window.alert('Seus dados foram enviados!')"/>
 						<input type="reset" value="Limpar" onClick="window.document.getElementById('txtnome').focus();"/>
 					</td>
-				
 				</tr>
 			</table>	
 		</form>
 		
 		<h6 class="titulo-pagina"> Clique nos ícones abaixo, para acessar nossas redes socias:</h6>
-		
 		
 		<div id="alinhamento-redes">
 			<a title="Facebook" href="https://www.facebook.com/Buzz-Tecnologia-106526594565210" target="__blank">
@@ -199,16 +94,12 @@
 				<img class="redes-sociais" src="img/email.ico"/>
 			</a>
 		</div>
-		
 		<h6 class="titulo-pagina"> Venha nos visitar:</h6>
-		
 		<div class="alinhamento-iframe">
 			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.322157794315!2d-46.73081678502303!3d-23.52091268470298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef8c1d371ec31%3A0x671c9325c275132e!2sETEC%20Professor%20Basilides%20de%20Godoy.!5e0!3m2!1spt-BR!2sbr!4v1606010802489!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 		</div>
-		
 		<footer>
 			Buzz Tecnologia &copy; 2020
 		</footer>
-	
 	</body>
 </html>
