@@ -66,20 +66,26 @@
 	#empresa
 	{
 		background-color: rgb(153,217,234);
-		margin-left:3%;
-		margin-top:3%;
-		padding:1%;
-		width:25%;
+		margin-left:2%;
+		margin-bottom:15%;
+		margin-top:8%;
+		padding-left:1%;
+		padding-right:1%;
+		padding-top:1%;
+		padding-bottom:4%;
+		width:50%;
+		height:25%;
 	}
 	
 	#empresa-dois
 	{
 		background-color: rgb(153,217,234);
 		padding:1%;
-		width:25%;
+		width:40%;
 		height:100%;
-		margin-left:5%;
-		margin-top:5%;
+		margin-left:2%;
+		margin-right:2%;
+		margin-top:0%;
 	}
 	
 	#notas
@@ -90,8 +96,12 @@
 	
 	#imagens
 	{
-		margin-right: 10%;
-		margin-left: 10%;
+		margin-right:20%;
+		margin-left:5%;
+		margin-top:4%;
+		margin-bottom:12%;
+		width:50%;
+		height:30%;
 	}
 	
 	div img
