@@ -4,6 +4,7 @@
 		padding:0%;
 		position:fixed;
 		width:100%;
+		z-index:50;
 	}
 	
 	.logo-buzz
@@ -63,36 +64,75 @@
 		box-shadow:0px 0px 15px 3px rgb(153,217,234);
 	}
 	
-	#empresa
+	section
 	{
-		background-color: rgb(153,217,234);
-		margin-left:2%;
-		margin-bottom:15%;
-		margin-top:8%;
-		padding-left:1%;
-		padding-right:1%;
-		padding-top:1%;
-		padding-bottom:4%;
-		width:50%;
-		height:25%;
-	}
-	
-	#empresa-dois
-	{
-		background-color: rgb(153,217,234);
-		padding:1%;
-		width:40%;
-		height:100%;
-		margin-left:2%;
-		margin-right:2%;
-		margin-top:0%;
-	}
-	
-	#notas
-	{
-		display: flex;
+		display:flex;
+		flex-direction:column;
 		align-items:center;
-	}	
+		justify-content:center;
+	}
+	
+	.cartao
+	{
+		border-top-left-radius:10px;
+		border-bottom-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-right-radius:10px;
+		background-color:rgb(153,217,234);
+		width:60%;
+		display:flex;
+		flex-grow:0;
+		flex-shrink:0;
+		margin-bottom:20px;
+		margin-top:50px;
+		
+	}
+	
+	.cartao img
+	{
+		width:30%;
+		height:100%;
+		max-width:500px;
+		max-height:460px;
+		border-top-left-radius:10px;
+		border-bottom-left-radius:10px;
+		transition:transform 0.5s;
+		
+	}
+	
+	.cartao img:hover
+	{
+		transform: scale(1.08);
+		border-top-right-radius:10px;
+		border-bottom-right-radius:10px;
+	}
+	
+	.cartao div
+	{
+		padding:15px;
+		padding-top:0px;
+		width:70%;
+	}
+	
+	.cartao h1
+	{
+		color:rgb(0,0,0);
+		letter-spacing:0.8px;
+		text-align:center;
+		margin-bottom:10px;
+		padding-bottom:5px;
+		border-bottom:1px solid white;
+		
+	}
+	
+	.cartao p
+	{
+		color:rgb(0,0,0);
+		font-size:1.3vw;
+		font-weight:500;
+		text-align:justify;
+		letter-spacing;0.4px;
+	}
 	
 	#imagens
 	{
@@ -100,8 +140,8 @@
 		margin-left:5%;
 		margin-top:4%;
 		margin-bottom:12%;
-		width:50%;
-		height:30%;
+		width:30%;
+		height:60%;
 	}
 	
 	div img

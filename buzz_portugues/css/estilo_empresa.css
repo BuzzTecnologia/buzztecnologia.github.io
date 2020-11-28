@@ -20,16 +20,6 @@
 		font-family:arial;
 		font-size:1.5vw;
 	}
-	
-	p
-	{
-		font-size:1.0vw;
-	}
-	
-	h4
-	{
-		font-size:1.5vw;
-	}
 
 	.titulo-home
 	{
@@ -80,19 +70,32 @@
 		width:100%;
 	}
 	
+	p
+	{
+		text-align:justify;
+	}
 
-	.perguntas
+	.empresa tr
 	{
 		background-color:rgb(153,217,234);
-		width:45%;
-		height:70%;
+	}
+
+	.empresa
+	{
 		margin-left:auto;
 		margin-right:auto;
+		width:50%;
 		margin-top:5%;
 		margin-bottom:5%;
-		padding:2%;
 	}
-		
+			
+	.alinhamento-empresa
+	{
+		padding:5%;
+		font-size:1.2vw;
+		font-family:arial;
+	}
+			
 	@media(max-width:540px) 
 	{
 		.alinhamento-empresa
