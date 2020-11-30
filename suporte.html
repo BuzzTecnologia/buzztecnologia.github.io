@@ -5,6 +5,7 @@
 		<meta name="author" content="Vitória Felix e Fabiana Contijo"/>
 		<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
 		<title>Buzz Tecnologia</title>
+		<link rel="shortcut icon" href="./img/logo_buzz.ico"/>
 		<link rel="stylesheet" href="css/estilo_suporte.css"/>
 	</head>
 	<body>
@@ -79,7 +80,7 @@
 						
 			function expandir(e)
 			{
-				if (respostasExpandir[e].style.display == 'none')
+				if (respostasExpandir[e].style.display == 'none' || respostasExpandir[e].style.display == "")
 				{
 					respostasExpandir[e].style.display = 'block'
 				}
