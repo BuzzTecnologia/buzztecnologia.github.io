@@ -12,17 +12,17 @@
 			<img align="left" class="logo-buzz" src="../img/logo_buzz.png"/>
 			<center class="titulo-home">
 				Buzz Tecnologia 
-				<a href="../portifolio.html">
+				<a href="../suporte.html">
 					<img align="right" class="bandeiras" src="../img/brasil.ico"/>
 				</a>
 			</center>
 			<center>
 				<nav>
-					<a href="index.html">Home page</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="empresa.html">About the company</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="portifolio.html">Portifolio</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="suporte.html">Support</a>&nbsp;&nbsp;&nbsp;&nbsp;
-					<a href="fale_conosco.html">Contact us</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="english_index.html">Home page</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="company.html">About the company</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="portifolio2.html">Portifolio</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="support.html">Support</a>&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="contact_us.html">Contact us</a>&nbsp;&nbsp;&nbsp;&nbsp;
 				</nav>
 			</center>
 		</header>
@@ -33,7 +33,7 @@
 			<tr colspan="2">
 				<td>
 					<h4 class="titulo-pagina">Common questions</h4><br/>
-					<h5>
+					<h5 class="perguntas-expandir" onClick="expandir(0)">
 					&bull; How do I hire the services?<br/>
 					</h5>
 						<p>
@@ -43,7 +43,7 @@
 							if you wish to request services from our company.
 						</p><br/>
 
-					<h5>
+					<h5 class="perguntas-expandir" onClick="expandir(1)">
 						&bull; How do I find the company address?<br/>
 					</h5>
 						<p>
@@ -53,7 +53,7 @@
 							come and meet us!
 						</p><br/>
 
-					<h5>
+					<h5 class="perguntas-expandir" onClick="expandir(2)">
 						&bull; Is there another platform for contacting the company?<br/>
 					</h5>					
 						<p>
@@ -63,7 +63,7 @@
 							communication with our organization.
 						</p><br/>
 						
-					<h5>	
+					<h5 class="perguntas-expandir" onClick="expandir(3)">	
 						&bull; How do I view all company services? <br/>
 					</h5>
 						<p>
@@ -77,5 +77,20 @@
 		<footer>
 			Buzz Tecnologia &copy; 2020
 		</footer>
+		<script>
+			const respostasExpandir = document.getElementsByTagName('p');
+						
+			function expandir(e)
+			{
+				if (respostasExpandir[e].style.display == 'none')
+				{
+					respostasExpandir[e].style.display = 'block'
+				}
+				else
+				{
+					respostasExpandir[e].style.display = 'none'
+				}
+			}
+		</script>
 	</body>
 </html>

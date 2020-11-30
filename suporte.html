@@ -33,7 +33,7 @@
 			<tr colspan="2">
 				<td>
 					<h4 class="titulo-pagina">Perguntas frequentes</h4><br/>
-					<h5>
+					<h5 class="perguntas-expandir" onClick="expandir(0)">
 					&bull; Como faço para contratar os serviços?<br/>
 					</h5>
 						<p>
@@ -42,7 +42,7 @@
 							que obrigatoriamente devem ser preenchidos caso deseje  solicitar serviços com nossa empresa.
 						</p><br/>
 
-					<h5>
+					<h5 class="perguntas-expandir" onClick="expandir(1)">
 						&bull; Como encontro o endereço da empresa?<br/>
 					</h5>
 						<p>
@@ -51,7 +51,7 @@
 							logo abaixo encontrará nosso endereço, venha nos conhecer!
 						</p><br/>
 
-					<h5>
+					<h5 class="perguntas-expandir" onClick="expandir(2)">
 						&bull; Há outra plataforma de contato com a empresa? <br/>
 					</h5>					
 						<p>
@@ -60,7 +60,7 @@
 							um outro meio possível de comunicação com nossa organização. 
 						</p><br/>
 						
-					<h5>	
+					<h5 class="perguntas-expandir" onClick="expandir(3)">	
 						&bull; Como faço para visualizar todos serviços da empresa? <br/>
 					</h5>
 						<p>
@@ -74,5 +74,20 @@
 		<footer>
 			Buzz Tecnologia &copy; 2020
 		</footer>
+		<script>
+			const respostasExpandir = document.getElementsByTagName('p');
+						
+			function expandir(e)
+			{
+				if (respostasExpandir[e].style.display == 'none')
+				{
+					respostasExpandir[e].style.display = 'block'
+				}
+				else
+				{
+					respostasExpandir[e].style.display = 'none'
+				}
+			}
+		</script>
 	</body>
 </html>

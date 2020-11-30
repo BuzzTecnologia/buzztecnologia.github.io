@@ -31,11 +31,18 @@
 	p
 	{
 		font-size:1.0vw;
+		display:none;
+		text-align:justify;
 	}
 	
 	h4
 	{
 		font-size:1.5vw;
+	}
+	
+	.perguntas-expandir
+	{
+		cursor:pointer;
 	}
 
 	.titulo-home
@@ -99,11 +106,6 @@
 		margin-bottom:5%;
 		padding:3%;
 		padding-bottom:5%;
-	}
-	
-	p
-	{
-		text-align:justify;
 	}
 		
 	@media(max-width:540px) 
