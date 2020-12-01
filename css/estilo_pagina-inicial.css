@@ -99,9 +99,8 @@
 	.cartao img
 	{
 		width:30%;
-		height:100%;
-		max-width:500px;
-		max-height:460px;
+		max-width:100%;
+		height:auto;
 		border-top-left-radius:10px;
 		border-bottom-left-radius:10px;
 		transition:transform 0.5s;
@@ -171,7 +170,7 @@
 		body
 		{
 			width:100%;
-			font-size:20px;
+			font-size:15px;
 		}
 		.perguntas p
 		{
@@ -180,7 +179,7 @@
 		
 		.cartao img
 		{
-			width:100%;
+			width:30%;
 			height:100%;
 		}
 		
