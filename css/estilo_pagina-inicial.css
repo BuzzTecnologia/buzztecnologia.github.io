@@ -5,6 +5,7 @@
 		position:fixed;
 		width:100%;
 		z-index:50;
+		font-weight:bold;
 	}
 	
 	.logo-buzz
@@ -163,5 +164,31 @@
 		text-align:center;
 		padding:1%;
 		width:100%;
+	}
+	
+	@media (max-width: 1250px) 
+	{
+		body
+		{
+			width:100%;
+			font-size:20px;
+		}
+		.perguntas p
+		{
+			font-size:18px;
+		}
+		
+		.cartao img
+		{
+			width:100%;
+			height:100%;
+		}
+		
+		.cartao
+		{
+			width:70%;
+			padding-right:8%;
+		}
+		
 	}
 	

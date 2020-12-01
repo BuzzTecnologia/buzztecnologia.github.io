@@ -4,6 +4,7 @@
 		padding:0%;
 		position:fixed;
 		width:100%;
+		font-weight:bold;
 	}
 	
 	.logo-buzz
@@ -108,20 +109,32 @@
 		padding-bottom:5%;
 	}
 		
-	@media(max-width:540px) 
+	@media (max-width:1315px) 
 	{
-		.alinhamento-empresa
+		body
 		{
-			padding: 5%;
+			width:100%;
+			font-size:20px;
 		}
-
-	}
-			
-	@media(max-width:321px) 
-	{
-		.alinhamento-empresa 
-		{	
-			padding: 2%;
+		.perguntas p
+		{
+			font-size:18px;
 		}
-
+		
+		.perguntas h5
+		{
+			font-size:20px;	
+		}
+		
+		.perguntas h4
+		{
+			font-size:22px;
+		}
+		
+		.perguntas
+		{
+			width:70%;
+			padding-right:8%;
+		}
+		
 	}

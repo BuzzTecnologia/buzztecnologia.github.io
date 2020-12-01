@@ -4,6 +4,7 @@
 		padding:0%;
 		position:fixed;
 		width:100%;
+		font-weight:bold;
 	}
 	
 	.logo-buzz
@@ -144,20 +145,19 @@
 		width:60%;
 		box-shadow:0px 0px 10px 10px rgb(50,50,50);
 	}
-	@media(max-width:540px) 
+	
+	@media(max-width:1100px) 
 	{
-		.alinhamento-empresa
+		form
 		{
-			padding: 5%;
+			width:30%;
+			height:45%;
+			font-size:3.3vw;
 		}
-
-	}
-			
-	@media(max-width:321px) 
-	{
-		.alinhamento-empresa 
-		{	
-			padding: 2%;
+		
+		.titulo-pagina h6
+		{
+			font-size:25px;
 		}
-
 	}
+		

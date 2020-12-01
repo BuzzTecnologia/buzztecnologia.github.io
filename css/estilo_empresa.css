@@ -4,6 +4,7 @@
 		padding:0%;
 		position:fixed;
 		width:100%;
+		font-weight:bold;
 	}
 	
 	.logo-buzz
@@ -103,7 +104,7 @@
 		font-family:arial;
 	}
 			
-	@media(max-width:540px) 
+	/*@media(max-width:540px) 
 	{
 		.alinhamento-empresa
 		{
@@ -119,4 +120,28 @@
 			padding: 2%;
 		}
 
+	}*/
+	
+	@media (max-width: 1250px) 
+	{
+		body
+		{
+			width:100%;
+			font-size:20px;
+		}
+		
+		.empresa p
+		{
+			font-size:18px;
+		}
+		
+		.titulo-pagina
+		{
+			font-size:20px;
+		}
+		
+		.empresa
+		{
+			width:70%;
+		}
 	}
