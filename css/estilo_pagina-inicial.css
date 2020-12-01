@@ -132,6 +132,12 @@
 		
 	}
 	
+	.cartao2
+	{
+		padding:20%;
+		/*margin-right:30%;*/
+	}
+	
 	.cartao p
 	{
 		color:rgb(0,0,0);
@@ -169,7 +175,7 @@
 	{
 		body
 		{
-			width:100%;
+			width:100vw;
 			font-size:15px;
 		}
 		.perguntas p
