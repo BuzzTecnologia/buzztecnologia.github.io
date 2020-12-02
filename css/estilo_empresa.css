@@ -103,6 +103,11 @@
 		font-size:1.2vw;
 		font-family:arial;
 	}
+	
+	.missao-vissao
+	{
+		padding:5%;
+	}
 			
 	/*@media(max-width:540px) 
 	{
