@@ -137,4 +137,15 @@
 			width:300px;
 			height:600px;
 		}
+		
+		body
+		{
+			width:100%;
+			font-size:20px;
+		}
+		
+		.titulo-pagina
+		{
+			font-size:20px;
+		}
 	}
