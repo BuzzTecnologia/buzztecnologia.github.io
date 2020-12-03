@@ -1,6 +1,7 @@
 	header
 	{
 		background-color:rgb(37,93,142);
+		/*background:linear-gradient(to bottom, rgb(37,93,142), rgb(0,64,128),rgb(37,93,142));*/
 		padding:0%;
 		position:fixed;
 		width:100%;
@@ -26,10 +27,12 @@
 	.titulo-home
 	{
 		font-family:arial;
+		color:rgb(255,255,255);
 		font-weight:bold;
-		font-size:3.5vw;
+		font-size:50px;
 		font-family:arial;
 		padding:2%;
+
 	}
 	
 	.bandeiras
@@ -41,7 +44,7 @@
 
 	body
 	{
-		font-size:1.2vw;
+		font-size:15px;
 		font-family:arial;
 		background-color:rgb(220,220,220);
 		margin-left:0px;
@@ -54,6 +57,12 @@
 	{
 		text-decoration: none;
 	}
+		
+	.css-header nav a
+	{
+		font-size:18px;
+	}
+	
 	
 	header nav a:link
 	{
@@ -62,13 +71,14 @@
 	
 	header nav a:visited
 	{
-		color:rgb(20,20,20);
+		color:rgb(255,255,255);
 	}
 	
 	header nav a:hover
 	{
 		border-radius:5%;
-		background-color:rgb(220,220,220);
+		background-color:rgb(255,255,255);
+		color:rgb(37,93,142);
 		box-shadow:0px 0px 15px 3px rgb(153,217,234);
 	}
 	
@@ -78,22 +88,20 @@
 		flex-direction:column;
 		align-items:center;
 		justify-content:center;
+		padding-top:70px;
 	}
 	
 	.cartao
 	{
-		border-top-left-radius:10px;
-		border-bottom-left-radius:10px;
-		border-top-right-radius:10px;
-		border-bottom-right-radius:10px;
+		border-radius:10px;
 		background-color:rgb(153,217,234);
-		width:60%;
+		width:70%;
 		display:flex;
 		flex-grow:0;
 		flex-shrink:0;
 		margin-bottom:20px;
 		margin-top:50px;
-		
+		box-shadow:0px 0px 25px 10px rgb(130,130,130);
 	}
 	
 	.cartao img
@@ -121,15 +129,22 @@
 		width:70%;
 	}
 	
-	.cartao h1
+	.cartao span
 	{
 		color:rgb(0,0,0);
 		letter-spacing:0.8px;
-		text-align:center;
 		margin-bottom:10px;
 		padding-bottom:5px;
-		border-bottom:1px solid white;
-		
+		font-size:30px;
+		font-weight:bold;
+	}
+	
+	.cartao hr
+	{
+		background-color:rgb(255,255,255);
+		height:1px;
+		color:rgb(255,255,255);
+		border-width:0px;
 	}
 	
 	.cartao2
@@ -141,10 +156,11 @@
 	.cartao p
 	{
 		color:rgb(0,0,0);
-		font-size:1.3vw;
+		font-size:18px;
 		font-weight:500;
 		text-align:justify;
-		letter-spacing;0.4px;
+		letter-spacing:0.4px;
+		padding:4%;
 	}
 	
 	#imagens
@@ -171,29 +187,26 @@
 		width:100%;
 	}
 	
-	@media (max-width: 1250px) 
+	@media only screen and (min-width: 1040px) 
 	{
 		body
-		{
-			width:100vw;
-			font-size:15px;
-		}
-		.perguntas p
 		{
 			font-size:18px;
 		}
 		
-		.cartao img
+		.titulo-home
 		{
-			width:30%;
-			height:100%;
+			font-size:70px;
 		}
 		
-		.cartao
+		.css-header nav a
 		{
-			width:70%;
-			padding-right:8%;
+			font-size:25px;
 		}
 		
+		.cartao p
+		{
+			font-size:24px;
+		}
 	}
 	
