@@ -1,85 +1,13 @@
-	header
-	{
-		background-color:rgb(37,93,142);
-		/*background:linear-gradient(to bottom, rgb(37,93,142), rgb(0,64,128),rgb(37,93,142));*/
-		padding:0%;
-		position:fixed;
-		width:100%;
-		z-index:50;
-		font-weight:bold;
-	}
 	
-	.logo-buzz
-	{
-		width:8%;
-		height:100%;
-		padding:1%;
-	}
-			
-	.titulo-pagina
-	{
-		text-align:center;
-		text-decoration:underline;
-		font-family:arial;
-		font-size:1.5vw;
-	}
-
-	.titulo-home
-	{
-		font-family:arial;
-		color:rgb(255,255,255);
-		font-weight:bold;
-		font-size:50px;
-		font-family:arial;
-		padding:2%;
-
-	}
-	
-	.bandeiras
-	{
-		width:2%;
-		height:1%;
-		margin-bottom:3%;
-	}
-
 	body
 	{
-		font-size:15px;
+		font-size:23px;
 		font-family:arial;
 		background-color:rgb(220,220,220);
 		margin-left:0px;
 		margin-right:0px;
 		margin-bottom:0px;
 		margin-top:0px;
-	}
-	
-	a
-	{
-		text-decoration: none;
-	}
-		
-	.css-header nav a
-	{
-		font-size:18px;
-	}
-	
-	
-	header nav a:link
-	{
-		color:rgb(0,0,0);
-	}
-	
-	header nav a:visited
-	{
-		color:rgb(255,255,255);
-	}
-	
-	header nav a:hover
-	{
-		border-radius:5%;
-		background-color:rgb(255,255,255);
-		color:rgb(37,93,142);
-		box-shadow:0px 0px 15px 3px rgb(153,217,234);
 	}
 	
 	section
@@ -95,7 +23,8 @@
 	{
 		border-radius:10px;
 		background-color:rgb(153,217,234);
-		width:70%;
+		width:50%;
+		height:25%;
 		display:flex;
 		flex-grow:0;
 		flex-shrink:0;
@@ -124,7 +53,7 @@
 	
 	.cartao div
 	{
-		padding:15px;
+		padding:0px;
 		padding-top:0px;
 		width:70%;
 	}
@@ -147,16 +76,10 @@
 		border-width:0px;
 	}
 	
-	.cartao2
-	{
-		padding:20%;
-		/*margin-right:30%;*/
-	}
-	
 	.cartao p
 	{
 		color:rgb(0,0,0);
-		font-size:18px;
+		font-size:23px;
 		font-weight:500;
 		text-align:justify;
 		letter-spacing:0.4px;
@@ -183,6 +106,8 @@
 	{
 		background-color:rgb(37,93,142);
 		text-align:center;
+		font-size:20px;
+		color:rgb(255,255,255);
 		padding:1%;
 		width:100%;
 	}
@@ -206,7 +131,11 @@
 		
 		.cartao p
 		{
-			font-size:24px;
+			font-size:20px;
 		}
-	}
+		
+		.cartao div
+		{
+			padding-bottom:0px;
+		}
 	

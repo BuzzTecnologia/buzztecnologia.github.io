@@ -1,0 +1,61 @@
+	
+	header
+	{
+		background-color:rgb(37,93,142);
+		padding:0%;
+		position:fixed;
+		width:100%;
+		font-weight:bold;
+		z-index:99;
+	}
+	
+	header nav a:link
+	{
+		color:rgb(0,0,0);
+	}
+	
+	header nav a:visited
+	{
+		color:rgb(255,255,255);
+	}
+	
+	header nav a:hover
+	{
+		border-radius:5%;
+		background-color:rgb(255,255,255);
+		color:rgb(37,93,142);
+		box-shadow:0px 0px 15px 3px rgb(153,217,234);
+	}
+	
+	.titulo-home
+	{
+		font-family:arial;
+		font-weight:bold;
+		color:rgb(255,255,255);
+		font-size:30px;
+		padding:2%;
+	}
+
+	a
+	{
+		text-decoration: none;
+	}
+	
+	.logo-buzz
+	{
+		width:8%;
+		height:100%;
+		padding:1%;
+	}
+	
+	.bandeiras
+	{
+		width:2%;
+		height:1%;
+		margin-bottom:3%;
+	}
+	
+	.css-header nav a
+	{
+		font-size:18px;
+	}

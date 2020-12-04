@@ -1,62 +1,32 @@
-﻿	header
-	{
-		background-color:rgb(37,93,142);
-		padding:0%;
-		position:fixed;
-		width:100%;
-		font-weight:bold;
-	}
-	
-	.logo-buzz
-	{
-		width:8%;
-		height:100%;
-		padding:1%;
-	}
-			
-	.titulo-pagina
+﻿	.titulo-pagina
 	{
 		text-align:center;
 		text-decoration:underline;
 		font-family:arial;
-		font-size:1.5vw;
-	}
-	
-	.bandeiras
-	{
-		width:2%;
-		height:1%;
-		margin-bottom:3%;
+		font-size:30px;
 	}
 	
 	p
 	{
-		font-size:1.0vw;
+		font-size:23px;
 		display:none;
 		text-align:justify;
 	}
 	
 	h4
 	{
-		font-size:1.5vw;
+		font-size:30px;
 	}
 	
 	.perguntas-expandir
 	{
 		cursor:pointer;
-	}
-
-	.titulo-home
-	{
-		font-family:arial;
-		font-weight:bold;
-		font-size:3.5vw;
-		padding:2%;
+		font-size:23px;
 	}
 	
 	body
 	{
-		font-size:1.3vw;
+		font-size:23px;
 		font-family:arial;
 		background-color:rgb(220,220,220);
 		margin-left:0px;
@@ -64,35 +34,15 @@
 		margin-bottom:0px;
 		margin-top:0px;
 	}
-	
-	a
-	{
-		text-decoration: none;
-	}
-	
-	header nav a:link
-	{
-		color:rgb(0,0,0);
-	}
-	
-	header nav a:visited
-	{
-		color:rgb(20,20,20);
-	}
-	
-	header nav a:hover
-	{
-		border-radius:5%;
-		background-color:rgb(220,220,220);
-		box-shadow:0px 0px 15px 3px rgb(153,217,234);
-	}
 			
 	footer
 	{
 		background-color:rgb(37,93,142);
 		text-align:center;
 		padding:1%;
+		font-size:20px;
 		width:100%;
+		color:rgb(255,255,255);
 	}
 	
 
@@ -107,6 +57,7 @@
 		margin-bottom:5%;
 		padding:3%;
 		padding-bottom:5%;
+		margin-top:8%
 	}
 		
 	@media (max-width:1315px) 
@@ -114,7 +65,7 @@
 		body
 		{
 			width:100%;
-			font-size:20px;
+			font-size:23px;
 		}
 		.perguntas p
 		{
@@ -136,5 +87,17 @@
 			width:70%;
 			padding-right:8%;
 		}
-		
 	}
+	@media only screen and (min-width: 1040px) 
+	{
+		.css-header nav a
+		{
+			font-size:25px;
+		}
+		
+		.titulo-home
+		{
+			font-size:70px;
+		}
+	}
+	
