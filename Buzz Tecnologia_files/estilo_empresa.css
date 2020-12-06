@@ -146,9 +146,9 @@
 	}
 	@media only screen and (max-width:700px)
 	{
-		.empresa
+		.alinhamento-empresa p, .alinhamento-empresa
 		{
-			width:95%;
+			width:100%;
 		}
 	}
 	

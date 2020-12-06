@@ -5,6 +5,7 @@
 		text-decoration:underline;
 		font-family:arial;
 		font-size:30px;
+		margin-top:5%;
 	}
 
 	body
@@ -61,12 +62,12 @@
 	
 	@media (max-width:1390px)
 	{
-		.flyer
+		/*.flyer
 		{
-			width:250px;
-			height:500px;
+			width:125%;
+			height:250%;
 			margin:center;
-		}
+		}*/
 		
 		body
 		{

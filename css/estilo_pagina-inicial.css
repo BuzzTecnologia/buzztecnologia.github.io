@@ -23,7 +23,7 @@
 	{
 		border-radius:10px;
 		background-color:rgb(153,217,234);
-		width:50%;
+		width:60%;
 		height:25%;
 		display:flex;
 		flex-grow:0;
@@ -138,4 +138,24 @@
 		{
 			padding-bottom:0px;
 		}
+	}	
+	@media only screen and (max-width: 1050px)
+	{
+		.cartao img
+		{
+			display:none;
+		}
+		
+		.cartao div
+		{
+			width:100%;
+		}
+	}
+	@media only screen and (max-width: 700px)
+	{
+		.cartao
+		{
+			width:90%;
+		}
+	}
 	
